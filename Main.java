@@ -14,5 +14,9 @@ public class Main {
         System.out.println(f1);
         f1 = f2.vyuch(f3);
         System.out.println(f1);
+        f1 = f2.multyOnFrac(f3);
+        System.out.println(f1);
+        f1 = f2.del(f3);
+        System.out.println(f1);
     }
 }
