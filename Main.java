@@ -12,5 +12,7 @@ public class Main {
         Fraction f3 = new Fraction(n2, d2);
         f1 = f2.slozh(f3);
         System.out.println(f1);
+        f1 = f2.vyuch(f3);
+        System.out.println(f1);
     }
 }
