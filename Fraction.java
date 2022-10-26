@@ -49,6 +49,14 @@ public class Fraction {
         return result;
     }
 
+    public Fraction del(Fraction sec)
+    {
+        Fraction result = new Fraction();
+        result.num = num*sec.denum;
+        result.denum = denum*sec.num;
+        return result;
+    }
+    
     public Fraction vyuch(Fraction sec)
     {
         Fraction result = new Fraction();
