@@ -39,14 +39,6 @@ public class Fraction {
      return result;
     }
 
-    public Fraction ymn(Fraction sec)
-    {
-        Fraction result = new Fraction();
-        result.num = num*sec.denum;
-        result.denum = denum*sec.num;
-        return result;
-    }
-
     public Fraction slozh(Fraction sec)
     {
         Fraction result = new Fraction();
